@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    overflow-x: hidden;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+#header .fixed-top{
+    box-shadow: 0 0.125rem 0.627rem rgb(0 0 0/5%);
+}
+#header .navbar-nav .nav-link{
+    color: black;
+    padding: 0.5rem 1rem;
+    text-align: center ;
+}
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link.active{
+    color: rgb(245, 46, 11);
+}
+#header .navbar-toggler:focus{
+    box-shadow: none;
+}
+.home .home-banner-1,
+.home .home-banner-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    min-height: 540px;
+    position: relative;
+}
+.home .home-banner-1{
+    background-image: url(banner4.jpg);
+}
+.home .home-banner-2{
+    background-image: url(banner1.jpg);
+}
+.home .home-banner .home-banner-text{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    
+}
+.home .home-banner .home-banner-text h1{
+    font-size: 6rem;
+}
+.home .carousel-control-next-icon,
+.home .carousel-control-prev-icon{
+    background: transparent;
+}
+.home .slider-icon{
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+@media (max-width:1030px){
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2{
+    background-position: 65% center;
+    min-height: 540px;
+}
+.home .home-banner .home-banner-text{
+    left:10%
+}
+}
+@media (max-width:800px){
+    /* Home CSS */
+    .home .home-banner .home-banner-text h1{
+        font-size: 4rem;
+    }
+    .home .Product .card{
+        width: 150px;
+
+    }
+    .bg-secondary{
+        background: rgb(178, 169, 167);
+        background-color:rgb(178, 169, 167) ;
+    }
+    
+    
+
+}
+@media (max-width:600px){
+    /* Home CSS */
+    .home .home-banner .home-banner-text {
+        font-size: 1rem;
+        left: 3%;
+    }
+    .home .home-banner .home-banner-text-h1 {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    /* .footer_body .row{
+        position: absolute;
+        left: 100px;
+    } */
+
+}
+@media (max-width:450px){
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 50% center;
+        min-height: 450px;
+    }
+    .home .card{
+        margin-left: 100px;
+
+    }
+    .home .Product .card{
+        margin-left: 90px;
+
+    }
+
+@media (max-width:576){
+    
+    
+}
+    .home .home-banner .home-banner-text {
+        text-align: center;
+        position: absolute;
+        top: 235px;
+        width: 100%;
+        color: aliceblue;
+        
+    }
+    .home .home-banner .home-banner-text-h1 {
+        
+        font-size: 0.7rem;
+    }
+    .home .home-banner .home-banner-text-h2 {
+        
+        font-size: 0.25rem;
+    }
+    .home .home-banner .home-banner-text .btn-danger{
+        padding: 0.2rem 0.5rem;
+    }
+    .home .slider-icon{
+        font-size: 2rem;
+    }
+}
+.container{
+    border: 2px solid green;
+}
+.container-fluid{
+    border: 2px solid red;
+}
+.offers{
+    padding-top: 5.75rem;
+}
+.container{
+    padding-left: 0;
+}
